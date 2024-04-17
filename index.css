@@ -26,16 +26,40 @@ body {
     border-radius: 10px;
     font-size: 30px;
     text-align: center;
-    background-color: white;
+    color: #365486;
+    background-color: #bef2f0;
 }
 
-button {
+.button {
     margin-top: 5px;
-    width: 100%;cursor: pointer;
-    background-color: black;
+    width: 100%;
+    cursor: pointer;
+    background-color: #0F1035;
     color: white;
     border: none;
     border-radius: 5px;
     display: block;
     font-size: 30px;
+}
+
+button:hover {
+    background-color: #5dc0d9;
+    color: black;
+    font-size: 30px;
+}
+
+.btnn button {
+    margin-top: 5px;
+    width: 45%;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.btnn button:hover {
+    border: none;
+    background-color: #5dc0d9;
 }
